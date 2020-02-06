@@ -89,6 +89,12 @@
 
 ---------------------------------------------------------------- */
 
+#entrySubText {
+	text-shadow: black;
+}
+#commercialGallery {
+	margin-top: auto;
+}
 
 /* ----------------------------------------------------------------
 	Bootstrap Adjustments
@@ -6595,7 +6601,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #ffff00;
+	background-color: #000000;
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
