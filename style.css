@@ -6566,7 +6566,10 @@ td.actions {
 	display: inline-block;
 	width: auto;
 }
-
+ ._construction_p {
+	 width: 80%;
+	 margin: auto;
+ }
 
 /* Countdown - Coming Soon
 -----------------------------------------------------------------*/
