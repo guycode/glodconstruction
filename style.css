@@ -6571,6 +6571,14 @@ td.actions {
 	 margin: auto;
  }
 
+ #igwt {
+	background-color: black;
+    width: 15em;
+    align-content: center;
+    margin: auto;
+    font-weight: 600;
+ }
+
 /* Countdown - Coming Soon
 -----------------------------------------------------------------*/
 
