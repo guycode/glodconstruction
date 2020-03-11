@@ -3538,7 +3538,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #content {
 	position: relative;
 	overflow: hidden;
-	background-color: #FFF;
+	background-color: rgb(215, 229, 253);
 }
 
 #content p { line-height: 1.8; }
