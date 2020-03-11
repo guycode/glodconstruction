@@ -27,8 +27,8 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'your-email@website.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+				'email' => 'richlanedesign@gmail.com', // Your Email Address
+				'name' => 'Rich Lane' // Your Name
 			);
 
 
@@ -37,7 +37,7 @@ $toemails[] = array(
 ---------------------------------------------------*/
 
 $fromemail = array(
-				'email' => 'no-reply@website.com', // Company's Email Address (preferably currently used Domain Name)
+				'email' => 'richlanedesign@gmail.com', // Company's Email Address (preferably currently used Domain Name)
 				'name' => 'Company Name' // Company Name
 			);
 
@@ -57,7 +57,13 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 $mail = new PHPMailer();
 
 /* Add your SMTP Codes after this Line */
-
+// $mail->IsSMTP();
+// $mail->Host = "mail.yourdomain.com";
+// $mail->SMTPDebug = 0;
+// $mail->SMTPAuth = true;
+// $mail->Port = 26;
+// $mail->Username = "yourname@yourdomain.com";
+// $mail->Password = "yourpassword";
 
 // End of SMTP
 
