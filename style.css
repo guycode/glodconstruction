@@ -88,7 +88,7 @@
 	- Youtube Video Backgrounds
 
 ---------------------------------------------------------------- */
-#aboutUs { width: 60%; float: left; padding-left: 10%; font-size: large; text-align: center;}
+#aboutUs { width: 80%; float: left; padding-left: 10%; font-size: large; text-align: center;}
 
 #entrySubText {
 	text-shadow: black;
@@ -142,19 +142,19 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #ffff00;
+	background: #d0ff00;
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #ffff00; /* Firefox */
+	background: #d0ff00; /* Firefox */
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-webkit-selection {
-	background: #ffff00; /* Safari */
+	background: #d0ff00; /* Safari */
 	color: #FFF;
 	text-shadow: none;
 }
@@ -176,7 +176,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #ffff00;
+	color: #d0ff00;
 }
 
 a:hover { color: #222; }
@@ -231,7 +231,7 @@ h2 > span:not(.nocolor):not(.badge),
 h3 > span:not(.nocolor):not(.badge),
 h4 > span:not(.nocolor):not(.badge),
 h5 > span:not(.nocolor):not(.badge),
-h6 > span:not(.nocolor):not(.badge) { color: #ffff00; }
+h6 > span:not(.nocolor):not(.badge) { color: #d0ff00; }
 
 p,
 pre,
@@ -413,11 +413,11 @@ span.middot {
 }
 
 .bgcolor,
-.bgcolor #header-wrap { background-color: #ffff00 !important; }
+.bgcolor #header-wrap { background-color: #d0ff00 !important; }
 
-.color { color: #ffff00 !important; }
+.color { color: #d0ff00 !important; }
 
-.border-color { border-color: #ffff00 !important; }
+.border-color { border-color: #d0ff00 !important; }
 
 .nobg { background: none !important; }
 
@@ -620,7 +620,7 @@ span.middot {
 .col_one_third { width: 30.63%; }
 .col_two_third { width: 65.33%; }
 .col_one_fourth,
-.sidebar { width: 22%; }
+.sidebar { width: 40%; }
 .col_three_fourth,
 .postcontent { width: 74%; }
 .col_one_fifth { width: 16.8%; }
@@ -1197,7 +1197,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #ffff00; }
+#primary-menu ul li.current > a { color: #d0ff00; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -1209,7 +1209,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 	display: none;
 	position: absolute;
 	width: 220px;
-	background-color: #FFF;
+	background-color: rgb(224, 224, 224);
 	box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
 	border: 1px solid #EEE;
 	border-top: 2px solid #ffff00;
@@ -3538,7 +3538,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #content {
 	position: relative;
 	overflow: hidden;
-	background-color: rgb(215, 229, 253);
+	background-color: rgb(199, 207, 221);
 }
 
 #content p { line-height: 1.8; }
@@ -7508,7 +7508,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box .fbox-icon i,
 .feature-box .fbox-icon img {
 	border-radius: 50%;
-	background-color: #ffff00;
+	background-color: #d0ff00;
 }
 
 .feature-box .fbox-icon i {
