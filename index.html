@@ -410,7 +410,7 @@
 							<div class="widget quick-contact-widget form-widget clearfix">
 								<h4>Quick Quotation Form</h4>
 								<div class="form-result"></div>
-								<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form nobottommargin">
+								<form id="quick-contact-form" name="quick-contact-form" method="POST" action="https://formspree.io/richlanedesign@gmail.com" class="quick-contact-form nobottommargin">
 									<div class="form-process"></div>
 									<input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name" />
 									<input type="text" class="required sm-form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address" />
@@ -528,7 +528,7 @@
 								<h3>Send us an Email</h3>
 							</div>
 
-							<div class="form-widget">
+							<form method="POST" action="https://formspree.io/richlanedesign@gmail.com">
 
 								<div class="form-result"></div>
 
@@ -579,7 +579,7 @@
 									<div class="col_full hidden">
 										<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
 									</div>
-
+									<div data-netlify-recaptcha="true"></div>
 									<div class="col_full">
 										<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
 									</div>
